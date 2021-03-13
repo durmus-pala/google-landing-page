@@ -1,0 +1,224 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+    white-space: nowrap;
+    display: block;
+}
+header{
+    width:100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+.header-left{
+    float:left;
+}
+.header-left a{
+    font-size: 13px;
+    font-family: arial;
+    text-decoration: none;
+    color: black;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+}
+.header-left a:hover{
+    text-decoration: underline;
+}
+
+.header-right{
+    float: right;
+}
+.header-right a{
+    font-size: 13px;
+    font-family: arial;
+    text-decoration: none;
+    color: black;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+}
+header::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+#appicon{
+    vertical-align: middle;
+    opacity: 0.5;
+}
+#appicon:hover{
+    opacity: 1;
+}
+#sign-in-button{
+    color: white;
+    background-color: #4285f4;
+    border: none;
+    height: 30px;
+    width: 70px;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}
+button{
+        appearance: auto;
+        -webkit-writing-mode: horizontal-tb !important;
+        text-rendering: auto;
+        color: -internal-light-dark(black, white);
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: center;
+        align-items: flex-start;
+        cursor: default;
+        background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+        box-sizing: border-box;
+        margin: 0em;
+        font: 400 13.3333px Arial;
+        padding: 1px 6px;
+        border-width: 2px;
+        border-style: outset;
+        border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+        border-image: initial;
+
+}
+#google{
+    height: 95px;
+    width: 272px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.search-bar{
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 60px;
+}
+
+#search-text{
+    font-size: 16px;
+    height: 38px;
+    width: 460px;
+    border-radius: 25px;
+    padding: 3px;
+    border: 1px solid lightgray;
+    padding-left: 50px;
+}
+
+#search-text:hover{
+    box-shadow: 3px 3px 5px lightgrey;
+}
+#mag{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+    right: 495px;
+}
+#mic{
+    position: relative;
+    top: 5px;
+    right: 74px;
+    height: 20px;
+}
+.button-bar{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#search-button{
+    height: 36px;
+    width: 120px;
+    border: hidden;
+    border-radius: 4px;
+    color: #5f6368;
+    margin-right: 8px;
+}
+#search-button:hover{
+    border: 1px solid #5f6368;
+}
+#search-button:active{
+    border: 1px solid black;
+}
+
+#lucky-button{
+    height: 36px;
+    width: 140px;
+    border: hidden;
+    border-radius: 4px;
+    color: #5f6368;
+}
+
+#lucky-button:hover{
+    border: 1px solid #5f6368;
+}
+#lucky-button:active{
+    border: 1px solid black;
+}
+#languages{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+p {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    width: 100%;
+    padding-left: 5px;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+}
+
+.country{
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 13px;
+    color: #5f6368;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+ .footer-left{
+     float: left;
+ }
+
+ .footer-left a{
+     font-size: 13px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: #5f6368;
+     text-decoration: none;
+     margin-left: 0.75em;
+    margin-right: 0.75em;
+ }
+
+ .footer-left a:hover{
+     text-decoration: underline;
+ }
+ 
+.footer-right{
+    float: right;
+}
+
+.footer-right a{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    text-decoration: none;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+}
+.footer-right a:last-child{
+    padding-right: 30px;
+}
+
+.footer-right a:hover{
+    text-decoration: underline;
+}
